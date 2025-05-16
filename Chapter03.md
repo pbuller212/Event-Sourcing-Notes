@@ -1,6 +1,4 @@
-# 2. Event Sourcing - What is it?
-
-There are no schemas or data modeling up front. It is not possible to get this right the first time around.
+# 3. Planning Systems Using Event Modeling
 
 ## Key Elements of Event Modeling
 
