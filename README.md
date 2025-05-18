@@ -10,10 +10,10 @@ I purchase the books Understanding Event Sourcing by Martin Dilger. These are my
 
 ## Chapter Notes
 
-[Chapter 1 Notes](./Chapter01.md) -  Why you should care  
-[Chapter 2 Notes](./Chapter01.md) -  Event Sourcing - What is it?  
-[Chapter 3 Notes](./Chapter03.md) -  Planning Systems Using Event Modeling   
-[Chapter 4 Notes](./Chapter04.md) -   
+[Chapter 1 Notes](./Chapter01.md) - Why you should care  
+[Chapter 2 Notes](./Chapter01.md) - Event Sourcing - What is it?  
+[Chapter 3 Notes](./Chapter03.md) - Planning Systems Using Event Modeling   
+[Chapter 4 Notes](./Chapter04.md) - CQRS, Concurreny, Consistency    
 
 ## Other resources
 
