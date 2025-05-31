@@ -31,7 +31,7 @@ flowchart TD
     Client[Client] -->|1| Command[Command]
     Command -->|2| CommandHandler[Command Handler]
     CommandHandler -->|3| Aggregate
-    Aggregate -->|4| Event[Event (backed by database)]
+    Aggregate -->|4| Event[Event backed by database]
     Event --> Projector
     Project -->|5| Event
     Event -->|6| Query
