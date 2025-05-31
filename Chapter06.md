@@ -33,7 +33,7 @@ flowchart TD
     CommandHandler -->|3| Aggregate
     Aggregate -->|4| Event[Event backed by database]
     Event --> Projector
-    Project -->|5| Event
+    Projector -->|5| Event
     Event -->|6| Query
     Query -->|6| Client
 ```
