@@ -11,5 +11,15 @@ __Event Sourcing__ - is how to capture state changes in the system.
 
 ## Designing Streams
 
-To keep a stream manageable, there should be defined end to the stream.
+To keep a stream manageable, there should be defined end to the stream. This helps prevent large chunks of data from forming, and mirrors the accouting idea of "Closing the books." This forms a boundary where validation can occur
+
+The ability to modify the stream design is one of the strengths of event sourcing, as provides flexibility when things need to change.
+
+__Every string has a unique identifier__
+
+When laying out streams, using swinlane diagrams is useful.The lane defines the boundary of the stream. 
+
+To validate the stream design, read the events from left to right in the swimlane, and they should ring true to someone's common sense of the process. 
+
+Another trick is to verify that each event has all the information it needs from the previous events. If this cannot be done, the information source must be identified. 
 
